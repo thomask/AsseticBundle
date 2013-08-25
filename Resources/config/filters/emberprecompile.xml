@@ -6,9 +6,9 @@
 
     <parameters>
         <parameter key="assetic.filter.emberprecompile.class">Assetic\Filter\EmberPrecompileFilter</parameter>
-        <parameter key="assetic.filter.emberprecompile.bin">/usr/bin/ember-precompile</parameter>
-        <parameter key="assetic.filter.emberprecompile.node">%assetic.node.bin%</parameter>
-        <parameter key="assetic.filter.emberprecompile.node_paths">%assetic.node.paths%</parameter>
+        <parameter key="assetic.filter.emberprecompile.bin">%ember_precompile_path%</parameter>
+        <parameter key="assetic.filter.emberprecompile.node">%node_path%</parameter>
+        <parameter key="assetic.filter.emberprecompile.node_paths">%node_modules_paths%</parameter>
         <parameter key="assetic.filter.emberprecompile.timeout">null</parameter>
     </parameters>
 
